@@ -8,50 +8,50 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/text_my_name"
+        android:text="@string/title"
         android:textAlignment="center"
         android:textSize="30sp" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/image"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:contentDescription="@string/content_desc_main_image"
+        android:contentDescription="@string/image_content_desc"
         app:srcCompat="@drawable/christopher" />
 
     <Button
-        android:id="@+id/buttonWorkHistory"
+        android:id="@+id/work_history"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginTop="10dp"
-        android:text="@string/button_work_history" />
+        android:text="@string/work_history" />
 
     <Button
-        android:id="@+id/button_call"
+        android:id="@+id/call"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginTop="10dp"
-        android:text="@string/button_call" />
+        android:text="@string/call" />
 
     <Button
-        android:id="@+id/button_email"
+        android:id="@+id/email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginTop="10dp"
-        android:text="@string/button_email" />
+        android:text="@string/email" />
 
 </LinearLayout>
